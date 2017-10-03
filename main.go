@@ -31,7 +31,7 @@ func main() {
 		fmt.Printf("Threads       =>  %d\n", settings.maxThreads)
 		fmt.Printf("Dont Grow     =>  %t\n", settings.dontGrow)
 		fmt.Printf("Copy          =>  %t\n", settings.copy)
-		fmt.Printf("Copy Before   =>  %t\n", settings.copy)
+		fmt.Printf("Copy Before   =>  %t\n", settings.copyBeforeProc)
 		fmt.Printf("Interval      =>  %d\n", settings.interval)
 		fmt.Printf("Cmd           =>  %s\n", settings.cmd+" "+strings.Join(settings.args, " "))
 	}
